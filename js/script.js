@@ -78,7 +78,7 @@ aboutbox.addEventListener("mouseover", () => {
         loading.style.backgroundColor = "#333";
       }, 1);
       setTimeout(() => {
-        location.href = "../blank.html";
+        location.href = "../eliovex/blank.html";
       }, 1000);
     });
     c--;
@@ -156,7 +156,7 @@ Array.from(groupimg).forEach((img) => {
       loading.style.backgroundColor = "#333";
     }, 1);
     setTimeout(() => {
-      location.href = "../blank.html";
+      location.href = "../eliovex/blank.html";
     }, 1000);
   });
 });
@@ -216,7 +216,7 @@ menubuttons[1].addEventListener("click", () => {
         loading.style.backgroundColor = "#333";
       }, 1);
       setTimeout(() => {
-        location.href = "../blank.html";
+        location.href = "../eliovex/blank.html";
       }, 1000);
     });
   }

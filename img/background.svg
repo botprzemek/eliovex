@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2000" height="200" viewBox="0 0 2000 200" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2000" height="200" viewBox="0 0 2000 200" xml:space="preserve" fill="#333">
 <desc>SVG botprzemek</desc>
 <defs>
 </defs>
 <g transform="matrix(1 0 0 1 998.86 109.85)" id="_rF41KonYc4YLr35utQAn"  >
-<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -998.86364 87.87879 L -998.86364 -13.257570000000001 C -998.86364 -13.257570000000001 -638.85968 -50.75757 -338.85968 46.969699999999996 C -38.859680000000026 144.69697 583.86759 -34.84848 583.86759 -34.84848 C 583.86759 -34.84848 700.2659699999999 -70.64393000000001 804.0149799999999 -82.57575 C 907.7639899999999 -94.50757 998.86363 -82.57575 998.86363 -82.57575 L 998.86363 87.87880000000001 z" stroke-linecap="round" />
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #333; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -998.86364 87.87879 L -998.86364 -13.257570000000001 C -998.86364 -13.257570000000001 -638.85968 -50.75757 -338.85968 46.969699999999996 C -38.859680000000026 144.69697 583.86759 -34.84848 583.86759 -34.84848 C 583.86759 -34.84848 700.2659699999999 -70.64393000000001 804.0149799999999 -82.57575 C 907.7639899999999 -94.50757 998.86363 -82.57575 998.86363 -82.57575 L 998.86363 87.87880000000001 z" stroke-linecap="round" />
 </g>
 </svg>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta type="description" content="Construction Works on Demand." />
+    <meta type="author" content="botprzemek.pl" />
+    <meta
+      type="keyword"
+      content="eliovex.nl, botprzemek.pl, constrution works, netherlands"
+    />
+    <meta content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliovex | Building in Progress</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let loading = document.createElement("div");
+      document.body.appendChild(loading);
+      loading.setAttribute(
+        "style",
+        "position:absolute; background-color:#333; width:100vw; height:100vh; transition:all 1000ms ease-in; z-index:999;"
+      );
+
+      window.onload = () => {
+        loading.style.backgroundColor = "transparent";
+        setTimeout(() => {
+          loading.style.display = "none";
+        }, 1000);
+      };
+
+      let box = document.createElement("div");
+      let text1 = document.createElement("h1");
+      let text2 = document.createElement("h2");
+      let returning = document.createElement("div");
+      let returningtext = document.createElement("p");
+      let returningimg = document.createElement("img");
+
+      document.body.style.webkitUserSelect = "none";
+      text1.style.cursor = "default";
+      text2.style.cursor = "default";
+
+      document.body.style.fontFamily = "'Inter', sans-serif";
+      document.body.appendChild(box);
+      document.body.style.margin = "0";
+      document.body.style.padding = "0";
+      box.appendChild(text1);
+      box.appendChild(text2);
+      document.body.appendChild(returning);
+      returning.appendChild(returningimg);
+      returning.appendChild(returningtext);
+      box.style.display = "flex";
+      box.style.flexDirection = "column";
+      box.style.justifyContent = "center";
+      box.style.alignItems = "center";
+      box.style.background = "#333";
+      box.style.width = "100vw";
+      box.style.height = "100vh";
+      text1.innerHTML = "Building in Progress";
+      text1.style.fontSize = "4rem";
+      text1.style.color = "white";
+      text1.style.margin = "0";
+      text2.style.fontWeight = "400";
+      text2.style.fontSize = "2rem";
+      text2.style.color = "white";
+      text2.style.margin = "1rem";
+      text2.innerHTML = "Eliovex 2022";
+      returning.setAttribute(
+        "style",
+        "position:absolute;display:flex;justify-content:center;alignItems:center;top:0;left:0;margin:1.5rem 1.5rem;background-color:white;border-radius:50vw;"
+      );
+      returningimg.src = "img/arrow.svg";
+      returningimg.style.color = "#333";
+      returningimg.style.padding = "0 0.2rem 0 0.8rem";
+      returningtext.innerHTML = "Return to Main Page";
+      returningtext.setAttribute(
+        "style",
+        "color:#333;padding:0.6rem 1.6rem 0.6rem 0.6rem;font-size:1.3rem;margin:0;"
+      );
+      returning.addEventListener("mouseover", () => {
+        returning.style.cursor = "pointer";
+      });
+      returning.addEventListener("click", () => {
+        loading.style.display = "flex";
+        setTimeout(() => {
+          loading.style.backgroundColor = "#333";
+        }, 1);
+        setTimeout(() => {
+          location.href = "../index.html";
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>

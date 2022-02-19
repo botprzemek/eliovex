@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
 }
 html {
   scroll-behavior: smooth;
@@ -17,6 +19,10 @@ body {
   max-width: 100%;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+h1,
+h2 {
+  cursor: default;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -39,16 +45,21 @@ body::-webkit-scrollbar {
 .section {
   width: 100vw;
   height: 100vh;
-  color: #333;
+  color: white;
   display: flex;
+  background-color: #333;
   justify-content: center;
   align-items: center;
   scroll-snap-align: start;
   z-index: 1;
   padding: 0 5vw;
 }
+.section h2 {
+  color: white;
+}
 #s1 {
   background-image: url(../img/background.jpg);
+  backdrop-filter: blur(10px);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -59,13 +70,15 @@ body::-webkit-scrollbar {
   border-radius: 50vw;
   margin: 1.5rem;
   padding: 0.6rem 2.6rem;
-  outline: 0.3rem solid white;
+  border: 0.3rem solid white;
   box-sizing: border-box;
+  box-shadow: 0px 0px 17px 5px rgba(35, 35, 35, 0.16);
   transition: all 500ms ease-in;
+  color: #333;
 }
 #s1 .button:hover {
   background-color: transparent;
-  outline: 0.3rem solid #333;
+  border: 0.3rem solid #333;
   box-sizing: border-box;
   margin-top: 1.7srem;
   cursor: pointer;
@@ -76,16 +89,18 @@ body::-webkit-scrollbar {
 #s1 h1 {
   color: #333;
   font-size: 8rem;
-  font-weight: 700;
+  font-weight: bold;
+  letter-spacing: 4rem;
+  opacity: 0;
+  transition: all 800ms cubic-bezier(0.59, 0.47, 0.29, 0.95);
 }
 #s1 h2 {
   font-weight: 400;
+  color: #333;
 }
 #s1 .background {
   background-image: url(../img/background.svg);
   background-size: cover;
-  filter: sepia(10%) saturate(2%) hue-rotate(135deg) brightness(106%)
-    contrast(101%);
   border: none;
   width: 100vw;
   height: 20vh;
@@ -98,7 +113,7 @@ body::-webkit-scrollbar {
   height: 40vh;
 }
 #s3 {
-  height: 60vh;
+  height: 55vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -111,7 +126,7 @@ body::-webkit-scrollbar {
 }
 .group_header {
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   color: #333;
   font-size: 3rem;
   letter-spacing: 0.5px;
@@ -153,7 +168,17 @@ body::-webkit-scrollbar {
 }
 #s6 h2 {
   font-size: 2rem;
+  font-weight: 400;
   color: white;
+}
+
+@keyframes fade {
+  100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
 }
 
 :root {

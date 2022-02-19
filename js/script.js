@@ -46,7 +46,7 @@ function about() {
   aboutimg.src = "../eliovex/img/user.svg";
   aboutimg.setAttribute(
     "style",
-    "width: auto;height: 3.5rem;opacity: 1;transition: all 400ms ease-in;box-shadow: 0px 0px 17px 5px rgba(35,35,35,0.16);border-radius: 50vw;"
+    "width: 3.5rem;height: 3.5rem;opacity: 1;transition: all 400ms ease-in;box-shadow: 0px 0px 17px 5px rgba(35,35,35,0.16);border-radius: 50vw;"
   );
 
   aboutdesc.setAttribute(

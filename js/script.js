@@ -43,7 +43,7 @@ function about() {
     "style",
     "z-index:9;position: absolute;bottom: 0;left: 0;border-radius: 50vw;background-color: white;margin: 6rem 1.5rem;transition: all 400ms ease-in;display: flex;align-items:center;"
   );
-  aboutimg.src = "../img/user.svg";
+  aboutimg.src = "../../img/user.svg";
   aboutimg.setAttribute(
     "style",
     "width: auto;height: 3.5rem;opacity: 1;transition: all 400ms ease-in;box-shadow: 0px 0px 17px 5px rgba(35,35,35,0.16);border-radius: 50vw;"
@@ -115,7 +115,7 @@ Array.from(groupimg).forEach((img) => {
   groupdiv.style.justifyContent = "center";
   groupdiv.style.alignItems = "center";
   groupdiv.style.position = "relative";
-  groupdiv.style.backgroundImage = "url(../img/background.jpeg)";
+  groupdiv.style.backgroundImage = "url(../../img/background.jpeg)";
   groupdiv.style.backgroundSize = "cover";
   groupdiv.style.backgroundPosition = "bottom";
   groupdiv.style.backgroundRepeat = "no-repeat";

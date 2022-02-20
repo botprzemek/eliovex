@@ -57,6 +57,19 @@ function about() {
 
 about();
 
+let section = document.querySelectorAll(".section");
+for (let i = 0; i < 3; i++) {
+  let group = document.createElement("div");
+  section[1].appendChild(group);
+  group.classList.add("section_element");
+  let gheader = document.createElement("h2");
+  let gimg = document.createElement("div");
+  group.appendChild(gheader);
+  group.appendChild(gimg);
+  gheader.classList.add("group_header");
+  gimg.classList.add("group_img");
+}
+
 let contact = document.querySelectorAll(".group_header");
 contact[0].innerHTML = "Projects";
 contact[1].innerHTML = "Gallery";

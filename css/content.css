@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-user-select: none;
+  user-select: none;
   -webkit-user-drag: none;
 }
 html {
@@ -79,13 +80,6 @@ body::-webkit-scrollbar {
   box-shadow: 0px 0px 17px 5px rgba(35, 35, 35, 0.16);
   transition: all 500ms ease-in;
   color: #333;
-}
-#s1 .button:hover {
-  background-color: transparent;
-  border: 0.3rem solid #333;
-  box-sizing: border-box;
-  margin-top: 1.7srem;
-  cursor: pointer;
 }
 #s1 .button_text {
   font-size: 2rem;
@@ -236,15 +230,8 @@ body::-webkit-scrollbar {
   transition: 130ms ease-in;
   border-bottom: solid 0.2rem transparent;
 }
-.navbar ul li a:hover {
-  cursor: pointer;
-}
 .navbar ul li a:not(#logo):hover {
   border-bottom: solid 0.2rem #333;
-}
-:root {
-  user-select: none;
-  font-family: "Inter", sans-serif;
 }
 
 @keyframes fade {
@@ -258,4 +245,6 @@ body::-webkit-scrollbar {
 
 :root {
   scroll-behavior: smooth;
+  user-select: none;
+  font-family: "Inter", sans-serif;
 }

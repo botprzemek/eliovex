@@ -256,3 +256,19 @@ menubuttons[2].addEventListener("click", () => {
     });
   }, 10);
 });
+
+menubuttons[2].addEventListener("mouseover", () => {
+  menubuttons[2].style.backgroundColor = "transparent";
+  menubuttons[2].style.border = "0.3rem solid #333";
+});
+
+menubuttons[2].addEventListener("mouseleave", () => {
+  menubuttons[2].style.backgroundColor = "white";
+  menubuttons[2].style.border = "0.3rem solid white";
+});
+
+Array.from(menubuttons).forEach((button) => {
+  button.addEventListener("mouseover", () => {
+    button.style.cursor = "pointer";
+  });
+});

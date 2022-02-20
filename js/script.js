@@ -57,6 +57,12 @@ function about() {
 
 about();
 
+let contact = document.querySelectorAll(".group_header");
+contact[0].innerHTML = "Projects";
+contact[1].innerHTML = "Gallery";
+contact[2].innerHTML = "Services";
+contact[3].innerHTML = "Update 2022 | All rights reserved ©";
+
 let c = 0;
 
 aboutbox.addEventListener("mouseover", () => {

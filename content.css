@@ -63,7 +63,7 @@ body::-webkit-scrollbar {
   color: white;
 }
 #s1 {
-  background-image: url(../img/background.jpg);
+  background-image: url(img/background.jpg);
   backdrop-filter: blur(10px);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
   color: #333;
 }
 #s1 .background {
-  background-image: url(../img/background.svg);
+  background-image: url(img/background.svg);
   background-size: cover;
   border: none;
   width: 100vw;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url(../img/background.jpg);
+  background-image: url(img/background.jpg);
   background-size: cover;
   background-position: bottom;
   transition: all 400ms ease-in-out;
